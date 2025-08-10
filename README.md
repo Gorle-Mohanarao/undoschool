@@ -21,13 +21,17 @@ It replicates the given design with a responsive layout and includes interactive
 ---
 
 ## 🎯 Features & Enhancements
-- Fully **responsive design** for desktop (1440px) and mobile (375px).
-- **Hover animations** for buttons and course cards.
-- **Smooth scrolling** effect.
-- Custom **color palette** adjustments for better visual contrast.
-- Subtle **box-shadow animations** on hover.
-- Mobile menu toggle with **JavaScript**.
-- Clean, semantic HTML5 markup and modular CSS structure.
+**Base Features**
+- Accurate layout matching Figma design
+- Responsive for desktop (1440px) and mobile (375px)
+- Hover states for cards, buttons, and navigation
+- Semantic HTML5 structure for better accessibility
+
+**Enhancements**
+- Smooth card lift and shadow animation on hover
+- Animated filter tags for better user feedback
+- Lazy-loading images for faster initial load
+- Smooth scrolling for in-page navigation
 
 ---
 
