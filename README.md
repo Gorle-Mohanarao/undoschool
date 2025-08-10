@@ -7,9 +7,9 @@
 ---
 
 ## 🔗 Live Demo & Deliverables
-- **GitHub Repo:** https://github.com/Gorle-Mohanarao/undoschool
-- **GitHub Hosted Pages:** https://gorle-mohanarao.github.io/undoschool/  
-- **Video Walkthrough:** https://drive.google.com/file/d/1omoRS1PkbsKOp8ueef2fRyWfYKoBaS7G/view?usp=sharing
+- **GitHub Repo:** [Repo Link](https://github.com/Gorle-Mohanarao/undoschool)  
+- **Hosted Page:** [Live Demo](https://gorle-mohanarao.github.io/undoschool/)  
+- **Video Walkthrough:** [Watch Video](https://drive.google.com/file/d/1omoRS1PkbsKOp8ueef2fRyWfYKoBaS7G/view?usp=sharing)  
 
 ---
 
