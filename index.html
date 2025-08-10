@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undo School Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+</head>
+<body>
+    
+    <!-- Header -->
+    <div class="header-container">
+        <header class="header">
+        <div class="container">
+            <div class="logo">Logo</div>
+            <nav class="nav">
+                <a href="#" class="nav-link">Course</a>
+            </nav>
+            <div class="auth-buttons">
+                <a href="#" class="btn btn-login auth-toggle-desktop">Login</a>
+                <a href="#" class="btn btn-register auth-toggle-desktop">Register for free</a>
+                <!-- Mobile Toggle Button -->
+                <button class="btn auth-toggle-mobile" id="authToggleBtn" aria-label="Toggle Login/Register">
+                    <span id="authToggleText">Login</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    </div>
+
+    
+    <div>
+        <section class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Learn a New Skill</h1>
+                <p class="hero-subtitle">Everyday, Anytime, and Anywhere.</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="What do you want to learn today?">
+                    <button class="btn-search">Search</button>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <!-- How old are you section -->
+
+    <div class="age-selection-section">
+        <div class="container">
+            <h2 class="section-title">How Old Are You? 
+                <img src="./photos/target.png" alt="target icon" class="target-icon" width="40" height="40">
+            </h2>
+            <p class="section-subtitle">Pick your age and find the perfect courses just for you!</p>
+            <div class="age-grid" class="container">
+                <div class="age-box yellow">1-2<br>Years</div>
+                <div class="age-box yellow">2-3<br>Years</div>
+                <div class="age-box yellow">3-4<br>Years</div>
+                <div class="age-box yellow">4-5<br>Years</div>
+                <div class="age-box yellow">5-6<br>Years</div>
+                <div class="age-box magenta">6-7<br>Years</div>
+                <div class="age-box magenta">7-8<br>Years</div>
+                <div class="age-box magenta">8-9<br>Years</div>
+                <div class="age-box magenta">9-10<br>Years</div>
+                <div class="age-box magenta">10-11<br>Years</div>
+                <div class="age-box green">11-12<br>Years</div>
+                <div class="age-box green">12-13<br>Years</div>
+                <div class="age-box green">13-14<br>Years</div>
+                <div class="age-box green">14-15<br>Years</div>
+                <div class="age-box green">15-16<br>Years</div>
+                <div class="age-box cyan">16-17<br>Years</div>
+                <div class="age-box cyan">17-18<br>Years</div>
+                <div class="age-box cyan">18-19<br>Years</div>
+                <div class="age-box cyan">19-20<br>Years</div>
+                <div class="age-box cyan">20+  <br>Years</div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- new launches section -->
+
+    <div class="new-launches-section">
+        <div class="container">
+            <h2 class="section-title">New Launches 
+                <img src="./photos/star.png" alt="star icon" class="star-icon" width="40" height="40">
+            </h2>
+            <p class="section-subtitle">Our most loved courses that kids absolutely adore!</p>
+            <div class="course-cards-container">
+                <div class="course-card selling-fast highlighted">
+                    <div class="badge">Selling Fast</div>
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>    
+                </div>
+                <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>      
+                </div>
+
+                <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>      
+                </div>
+
+                <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>      
+                </div>
+
+                 <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    
+    <!-- featured courses section -->
+
+    <div class="featured-courses-section">
+        <div class="container">
+            <h2 class="section-title">Featured Courses 
+                <img src="./photos/star.png" alt="star icon" class="star-icon" width="40" height="40">
+            </h2>
+            <p class="section-subtitle">Our most loved courses that kids absolutely adore!</p>
+            <div class="course-cards-container">
+                <div class="course-card selling-fast highlighted">
+                    <div class="badge">Selling Fast</div>
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>    
+                </div>
+                <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>      
+                </div>
+
+                <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>      
+                </div>
+
+                <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>      
+                </div>
+
+                 <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- Top teachers section -->
+
+    <div class="top-teachers-section">
+        <div class="container">
+            <h2 class="section-title">Learn from Top Teachers</h2>
+            <p class="section-subtitle">Expert instructors who make learning fun and engaging for every child</p>
+            <div class="teachers-grid">
+                <div class="teacher-card">
+                    <img src="./photos/Teacher Andy Brew.png" alt="Teacher Andy Brew">
+                    <h3>Andy Brew</h3>
+                    <p>M.Sc, B.Ed | 15+ Years</p>
+                    <p>1000+ Students</p>
+                    <div class="tags">
+                        <span class="tag">Computer science</span>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <img src="./photos/Teacher Andy Brew.png" alt="Teacher Andy Brew">
+                    <h3>Andy Brew</h3>
+                    <p>M.Sc, B.Ed | 15+ Years</p>
+                    <p>1000+ Students</p>
+                    <div class="tags">
+                        <span class="tag">English</span>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <img src="./photos/Teacher Andy Brew.png" alt="Teacher Andy Brew">
+                    <h3>Andy Brew</h3>
+                    <p>M.Sc, B.Ed | 15+ Years</p>
+                    <p>1000+ Students</p>
+                    <div class="tags">
+                        <span class="tag">Early educator</span>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <img src="./photos/Teacher Andy Brew.png" alt="Teacher Andy Brew">
+                    <h3>Andy Brew</h3>
+                    <p>M.Sc, B.Ed | 15+ Years</p>
+                    <p>1000+ Students</p>
+                    <div class="tags">
+                        <span class="tag">Coding</span>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <img src="./photos/Teacher Andy Brew.png" alt="Teacher Andy Brew">
+                    <h3>Andy Brew</h3>
+                    <p>M.Sc, B.Ed | 15+ Years</p>
+                    <p>1000+ Students</p>
+                    <div class="tags">
+                        <span class="tag">Computer science</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Webinar start's section     -->
+
+        <div class="featured-courses-section">
+        <div class="container">
+            <h2 class="section-title">Webinar Start's within 24 hours
+                <img src="./photos/stopwatch.png" alt="star icon" class="star-icon" width="40" height="40">
+            </h2>
+            <p class="section-subtitle">Our most loved courses that kids absolutely adore!</p>
+            <div class="course-cards-container">
+
+                <div class="course-card selling-fast highlighted">
+                    <div class="badge">Selling Fast</div>
+                    
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>    
+                </div>
+                <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>      
+                </div>
+
+                <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>      
+                </div>
+
+                <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>      
+                </div>
+
+                 <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- Floating Decorative Icons for Professional Look -->
+<img src="photos/star.png" class="floating-icon icon1" alt="star decorative">
+<img src="photos/afternoon-icon.gif" class="floating-icon icon2" alt="afternoon decorative">
+<img src="photos/target.png" class="floating-icon icon3" alt="target decorative">
+<img src="photos/stopwatch.png" class="floating-icon icon4" alt="stopwatch decorative">
+<img src="photos/speech-icon.png" class="floating-icon icon5" alt="speech decorative">
+
+
+    <!-- Popular categories section -->
+
+    <div  class="popular-categories-section">
+        <div class="container">
+            <h2 class="section-title">Popular Categories</h2>
+            <p class="section-subtitle">Pick what you love most! These categories have everything you need to learn something awesome!</p>
+            <div class="categories-grid" >
+                <div class="category-card highlighted-category">
+                    <img src="./photos/coding-icon.png" alt="Coding icon">
+                    <span>Coding</span>
+                </div>
+                <div class="category-card">
+                    <img src="./photos/speech-icon.png" alt="Public speaking icon">
+                    <span>Public speaking</span>
+                </div>
+                <div class="category-card">
+                    <img src="./photos/chessboard.png" alt="Chess icon">
+                    <span>Chess</span>
+                </div>
+                <div class="category-card">
+                    <img src="./photos/homework.png" alt="Homework help icon">
+                    <span>Home work help</span>
+                </div>
+                <div class="category-card">
+                    <img src="./photos/app-building-icon.png" alt="App building icon">
+                    <span>App building</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Course Fast Selling Section     -->
+
+    <div class="featured-courses-section">
+        <div class="container">
+            <div class="course-cards-container">
+
+                <div class="course-card selling-fast highlighted">
+                    <div class="badge">Selling Fast</div>
+                    
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>    
+                </div>
+                <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>      
+                </div>
+
+                <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>      
+                </div>
+
+                <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>      
+                </div>
+
+                 <div class="course-card highlighted">
+                    <div class="card-header">
+                        <img src="./photos/Kids doing a robotics project.png" alt="Kids doing a robotics project">
+                        <div class="rating">4.9 | 200+ learners</div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tags">
+                            <span class="tag tag-english">English</span>
+                            <span class="tag tag-intermediate">Intermediate</span>
+                            <span class="tag tag-classes">4 classes</span>
+                        </div>
+                        <h3>Summer robotics camp: fun projects with auto arduino, Tink...</h3>
+                        <p>Build circuits & smart projects like alarms, weather stations, etc</p>
+                        <div class="course-info">
+                            <span>7-10 yrs</span>
+                            <span>45</span>
+                            <span>₹ 299</span>
+                            <button class="add-to-cart">🛒</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Filter with time section -->
+    <section class="filter-time-section">
+        <div class="container">
+            <h2 class="section-title">Filter with Time</h2>
+            <p class="section-subtitle">Choose the perfect time that fits your child's schedule</p>
+            <div class="time-filters">
+                <div class="time-filter-box">
+                    <span>Morning classes</span>
+                    <span class="time-range">8am - 12pm</span>
+                    <img src="./photos/morning-icon.gif" alt="morning-icon">
+                </div>
+                <div class="time-filter-box">
+                    <span>Afternoon classes</span>
+                    <span class="time-range">12pm - 4pm</span>
+                    <img src="./photos/afternoon-icon.gif" alt="afternoon-icon">
+                </div>
+                <div class="time-filter-box">
+                    <span>Evening classes</span>
+                    <span class="time-range">4pm - 8pm</span>
+                    <img src="./photos/evening-icon.gif" alt="evening-icon">
+                </div>
+                <div class="time-filter-box">
+                    <span>Late evening classes</span>
+                    <span class="time-range">8pm - 12am</span>
+                    <img src="./photos/night-icon.gif" alt="night-icon">
+                </div>
+            </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+    <!-- Auth Modal -->
+    <div id="authModal" class="auth-modal" style="display:none;">
+        <div class="auth-modal-content">
+            <span class="auth-modal-close" id="authModalClose">&times;</span>
+            <h2 id="authModalTitle">Login</h2>
+            <form id="authForm">
+                <div class="auth-form-group">
+                    <label for="authEmail">Email</label>
+                    <input type="email" id="authEmail" required />
+                </div>
+                <div class="auth-form-group">
+                    <label for="authPassword">Password</label>
+                    <input type="password" id="authPassword" required />
+                </div>
+                <div class="auth-form-group" id="registerNameGroup" style="display:none;">
+                    <label for="authName">Name</label>
+                    <input type="text" id="authName" />
+                </div>
+                <button type="submit" class="btn" id="authSubmitBtn">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
