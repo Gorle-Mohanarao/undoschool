@@ -7,9 +7,9 @@
 ---
 
 ## 🔗 Live Demo & Deliverables
-- **GitHub Repo:** https://github.com/<your-username>/<repo-name>  
-- **Hosted Page:** https://<your-hosting-url> (GitHub Pages / Netlify / Vercel)  
-- **Video Walkthrough:** https://(YouTube/Drive/Loom) — 30–60s (unlisted) demonstrating responsiveness & interactivity
+- **GitHub Repo:** https://github.com/Gorle-Mohanarao/undoschool
+- **GitHub Hosted Pages:** https://gorle-mohanarao.github.io/undoschool/  
+- **Video Walkthrough:** https://youtu.be/fMJvhlnoB3I
 
 ---
 
